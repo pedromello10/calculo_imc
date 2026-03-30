@@ -10,7 +10,7 @@ public class Main {
         P = Integer.parseInt(JOptionPane.showInputDialog("Digite seu peso (KG) : "));
         A = Double.parseDouble(JOptionPane.showInputDialog("Digite sua altura (M) : "));
         imc = P / (A * A);
-        JOptionPane.showMessageDialog(null, "O seu imc é: " + imc);
+        JOptionPane.showMessageDialog(null, "O resultado do seu imc é: " + imc);
 
     }
 }
